@@ -1,4 +1,20 @@
 // 1. Modules-in NodeJs **
 // run callAddFunction.js
-require('./callFunctionAdd');
-require('./readUserInput');
+// require('./callFunctionAdd');
+// // 2. readUserInput
+// require('./readUserInput');
+//  3. writeToAfile
+// require('./writeToAFile.js');
+//  4. Errors
+// require('./errorLog')
+//  5. OS Module
+// require('./osModule.js')
+// 6.readFileAsync
+// require('./readFileAsync')
+// 7. server.js
+// require("./server.js");
+// 8. lodash
+const _ = require("lodash");
+const items = [1, [2, [3, [4]]]];
+const newItems = _.flattenDeep(items);
+console.log(newItems);
